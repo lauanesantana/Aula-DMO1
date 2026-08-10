@@ -1,3 +1,5 @@
+package src.main.kotlin
+
 fun main () {
 
     println ("Digite o seu nome: ");
@@ -21,12 +23,12 @@ fun main () {
     }
     println ("Resultado: $resultado");
 
-/*    val dados = """
-        Nome: $nome,
-        /*Idade = $idade,*/
-        Idade ano que vem: ${idade+1}
-    """ .trimIndent()
-*/
+    /*    val dados = """
+            Nome: $nome,
+            /*Idade = $idade,*/
+            Idade ano que vem: ${idade+1}
+        """ .trimIndent()
+    */
 //    println(dados);
 }
 
