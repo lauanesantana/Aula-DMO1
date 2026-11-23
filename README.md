@@ -1,45 +1,72 @@
-# Exercícios iniciais de Kotlin ✨ 
+# Dispositivos Móveis com Kotlin ✨
 
-> Exercícios de ambientação ao IDE IntelliJ na linguagem Kotlin, como parte do curso de Análise e Desenvolvimento de Sistemas, integrando a disciplina de Dispositivos Móveis.
+> Repositório de exercícios e projetos desenvolvidos na disciplina de Dispositivos Móveis, do curso de Análise e Desenvolvimento de Sistemas (IFSP – Campus Araraquara).
 
-## Descrição 
+## Descrição
 
-Exercícios simples, que buscam ambientar o aluno no primeiro contato a Linguagem Kotlin, assimilando as semelhanças com Java, linguaguem muito fundamentada no percurso do estudante do 4º semestre. 
+Este repositório registra minha evolução na disciplina: dos primeiros exercícios de ambientação com a linguagem Kotlin no IntelliJ, assimilando as semelhanças com Java, até aplicativos Android com listagem, cadastro e persistência de dados em banco local.
 
-### O que foi solicitado? 🤔
-1. Leia uma palavra do usuário e exiba-a em maiúsculas e em minúsculas.
-2. Peça dois números inteiros o código permite que você use, mude e compartilhe o programa de graça. Porém, se você alterar o códige mostre a soma deles.
-3. Leia um número inteiro e mostre se ele é par ou ímpar. Trate entradas inválidas usando toIntOrNull().
-4. Solicite três notas (decimais) e calcule a média. Exiba se o aluno está aprovado (média ≥ 6), recuperação (média entre 4 e 5.9) ou reprovado (média < 4).
-5. Crie um programa que leia um valor em graus Celsius e pergunte se o usuário quer converter para Fahrenheit ou Kelvin.
+## 📂 Conteúdo do repositório
 
-*Tecnologias utilizadas* 
+| Data | Entrega | Assunto |
+|------|---------|---------|
+| Ago/2026 | Exercícios iniciais + aula 2 | Primeiro contato com Kotlin no IntelliJ |
+| Ago/2026 | Exercícios condicionais | Estruturas condicionais e validação de entradas |
+| Set/2026 | **Conversor de moedas (pt 1 e pt 2)** (avaliativo) | Exercício prático de conversão entre moedas |
+| Set/2026 | App Catálogo de Cursos | App Android com ListView exibindo cursos do IFSP |
+| Nov/2026 | **Catálogo de Cursos + Persistência de Dados** (avaliativo) | Banco de dados local com Room |
+
+---
+
+### 1. Exercícios iniciais de Kotlin 🤔
+
+Exercícios simples para ambientação à linguagem:
+
+1. Ler uma palavra do usuário e exibi-la em maiúsculas e em minúsculas.
+2. Pedir dois números inteiros e mostrar a soma deles.
+3. Ler um número inteiro e mostrar se ele é par ou ímpar, tratando entradas inválidas com `toIntOrNull()`.
+4. Solicitar três notas (decimais) e calcular a média, exibindo se o aluno está aprovado (média ≥ 6), em recuperação (entre 4 e 5.9) ou reprovado (média < 4).
+5. Ler um valor em graus Celsius e perguntar se o usuário quer converter para Fahrenheit ou Kelvin.
+
+### 2. App Catálogo de Cursos 📱
+
+Aplicativo Android que lista cursos do IFSP em uma `ListView`. Ao tocar em um curso, um `Toast` exibe a descrição dele.
+
+### 3. Catálogo de Cursos + Persistência de Dados 💾 *(exercício avaliativo)*
+
+Evolução do catálogo: os cursos deixaram de ficar fixos na memória e passaram a ser salvos em um **banco de dados local (SQLite) usando a biblioteca Room**. Assim, os dados continuam salvos mesmo depois que o app é fechado.
+
+**Funcionalidades:**
+- **Listagem (`getAll`)**: os cursos são carregados do banco ao abrir o app.
+- **Inserção (`insert`)**: nova tela de cadastro com nome e descrição do curso.
+- Na primeira execução, o banco é populado com os cursos padrão (TSI, Engenharia Mecânica, ADS e Licenciatura em Matemática).
+
+## 🛠️ Tecnologias utilizadas
 - Kotlin
-- IDE IntelliJ
+- IntelliJ IDEA
+- Android Studio
+- ViewBinding e ListView
+- Room (SQLite)
+- Kotlin Coroutines
 
-## Status 
-> 📈 Em andamento, buscando consolidar as bases para o início e desenvolvimento do Kotlin para Dispositivos Móveis.
+## 📈 Status
+> Em andamento: a cada aula, novos conceitos de desenvolvimento mobile são incorporados aos projetos.
 
-*Aprendizados e Desafios*: 
-1. Encarar as semelhanças dessa linguagem a Java.
+## Aprendizados e Desafios
+1. Encarar as semelhanças e diferenças entre Kotlin e Java.
 2. Pesquisar, inferir e aplicar funcionalidades novas.
-3. Ambientar-se ao IntelliJ.
-4. Iniciar o pensamento crítico ao desenvolvimento de aplicações a *Dispositivos Móveis com Kotlin*.
+3. Ambientar-me ao IntelliJ e ao Android Studio.
+4. Entender o ciclo de vida das Activities e a comunicação entre telas.
+5. Aplicar persistência de dados e o conceito de fonte única de verdade (*Single Source of Truth*) com o Room.
+6. Usar corrotinas para executar tarefas pesadas sem travar a interface.
 
 ## Licença
-Este código está licenciado sobre a GPLv3 (GNU General Public License v3). 
+Este código está licenciado sob a GPLv3 (GNU General Public License v3).
 
-------------
+---
 
-## 👩🏻‍🦰 Sobre mim: 
-> Sou Lauane Santana, estudante de Análise e Desenvolvimento de Sistemas, com foco em alinhar meus conhecimentos adquiridos na faculdade à CyberSegurança e Cloud.
+## 👩🏻‍🦰 Sobre mim
+> Sou Lauane Santana, estudante de Análise e Desenvolvimento de Sistemas, com foco em alinhar os conhecimentos adquiridos na faculdade à Cibersegurança e Cloud.
 
-### 📬 Contato: 
-- [Meu Linkedin] (https://linkedin.com/in/lauanesantana)
-
-
-
-
-
-
-
+### 📬 Contato
+- [Meu LinkedIn](https://linkedin.com/in/lauanesantana)
