@@ -14,7 +14,7 @@ Este repositório registra minha evolução na disciplina: dos primeiros exercí
 | Ago/2026 | Exercícios condicionais | Estruturas condicionais e validação de entradas |
 | Set/2026 | **Conversor de moedas (pt 1 e pt 2)** (avaliativo) | Exercício prático de conversão entre moedas |
 | Set/2026 | App Catálogo de Cursos | App Android com ListView exibindo cursos do IFSP |
-| Nov/2026 | **Catálogo de Cursos + Persistência de Dados** (avaliativo) | Banco de dados local com Room |
+| Nov/2026 | **Catálogo de Cursos + Persistência de Dados** (avaliativo) | Banco de dados local |
 
 ---
 
